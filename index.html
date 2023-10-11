@@ -20,6 +20,24 @@
             </ul>
         </nav>
         <img src="imagens/logo.png" alt="figura do logo da empresa" id="logo">
+        <div class="texto-cabecalho">
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque illo rerum</h1>
+            <span class="square"></span>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ipsa soluta atque error earum possimus tempore est vel. Error impedit asperiores iure dicta dolor aliquid illum ex numquam consectetur dolorum!
+            </p>
+            <button class="btn-comum">
+                conheça a nossa empresa
+            </button>
+            <br>
+            <span class="square"></span>
+            <div class="linha">
+                <span class="linha-1"></span><br>
+                <span class="linha-2"></span><br>
+                <span class="linha-3"></span>
+
+            </div>
+        </div>
     </header>
     <main><!--conteudo principal-->
         <section id="sobre">
@@ -29,7 +47,7 @@
             <div class="sobre-col-direita">
                 <div class="sobre-texto">
                     <h1>Sobre</h1>
-                        <span class="quadrado"></span>
+                        <span class="square"></span>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quos possimus perspiciatis praesentium expedita voluptate dignissimos, numquam veniam deleniti rerum sequi nostrum a debitis autem iste libero ut illo nesciunt?
                         </p>
@@ -38,9 +56,91 @@
                 </div>
             </div>
         </section>
+        <!--Recursos-->
+        <section id="recursos">
+            <div id="recursos-linha">
+                <div class="recursos-coluna">
+                    <h4>Experts teachers</h4>
+                    <img src="imagens/pic-1.png" alt="figura de uma lâmpada encandescente">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis voluptatum distinctio commodi asperiores quia recusandae quod, autem dolorum in nulla nemo animi accusamus cumque impedit expedita, voluptatibus molestias. Id!</p>
+                </div>
+                <div class="recursos-coluna">
+                    <h4>Learn Anywhere</h4>
+                    <img src="imagens/pic-2.png" alt="figura de um cerebro">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et ullam debitis consequatur laboriosam rem, dolore soluta repudiandae totam rerum perferendis ex deleniti placeat quas. Eius itaque sit accusamus similique officia?</p>
+                </div>
+                <div class="recursos-coluna">
+                    <h4>Unlimited Access</h4>
+                    <img src="imagens/pic-3.png" alt="figura de um foguete">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsum velit expedita natus harum fugiat, vitae dolorem magnam a accusamus, consequatur ad. Modi, harum eaque. Iure libero nobis provident ab!</p>
+                </div>                
+            </div>
+            <button class="btn-comum">inicie um curso conosco</button>
+        </section>
+        <!---->
+        <section id="contato">
+            <article id="contato-coluna-esquerda">
+                <h2>Lorem ipsum, dolor sit amet serunt  voluptatng elit. Voluptatum <br> consequatur maxime em unde, an
+                </h2>
+                <form action="#" method="post"><!--method é como ele vai enviar os dados(post dados sigilosos)(dados não sigilosos)-->
+                    <input type="text" name="txtnome" placeholder="Digite o seu nome" required autofocus >
+                    
+                    <input type="email" name="txtemail" placeholder="Digite o seu Email" required>
+
+                    <input type="tel" name="txttelefone" placeholder="Digite o seu telefone" >
+                    <textarea name="txtmensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <div id="contato-btn">
+                            <button type="submit" class="btn-comum">Enviar dados
+
+                            </button>
+                            <button type="reset" class="btn-comum">Apagar tudo </button>
+                    </div>
+                </form>
+            </article>
+            <article id="contato-coluna-direita">
+                <img src="imagens/contact.png" alt="figura de pessoas segurando balões de fala">
+            </article>
+        </section>
     </main>
     <footer><!--rodapé do site-->
-
+        <div class="container footer-linha">
+            <div class="footer-coluna-esquerda">
+                <div class="footer-logo">
+                    <img src="imagens/logo.png" alt="figura do logo da empresa">
+                    <button class="btn-comum">English</button>
+                </div>
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>support@xypo.com</small><br>
+                        <small>copyright 2020 - Xypo</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-coluna-direita">
+                <div class="footer-links">
+                    <div class="link-titulo">
+                        <h4>Product</h4>
+                        <small>Our Plan</small><br>
+                        <small>Free Trial</small>
+                    </div>
+                    <div class="link-titulo">
+                        <h4>Sobre nós</h4>
+                        <small>Equipe / Suporte</small><br>
+                        <small>FAQS</small>
+                    </div>
+                    <div class="link-titulo">
+                        <h4>Serviços</h4>
+                        <small>Materiais</small><br>
+                        <small>Dúvidas</small>
+                    </div>
+                    <div class="link-titulo">
+                        <h4>Contato</h4>
+                        <small>Rascunhos</small><br>
+                        <small>Contato</small>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
